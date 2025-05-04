@@ -3,6 +3,20 @@
 # Overview
 The Airbnb Clone Project is a full-stack web application designed to replicate core functionalities of a booking platform like Airbnb. The goal is to create a scalable, secure, and user-friendly platform that allows users to list, discover, and book accommodations. This project leverages modern backend frameworks, database systems, and CI/CD pipelines to simulate real-world software development practices, focusing on collaborative workflows, API security, and robust database design.
 
+## Team Roles
+1. Backend Developer  
+Responsible for building and maintaining the server-side logic of the application. They develop APIs, handle authentication, manage data flow between the database and frontend, and ensure security and scalability.
+2. Frontend Developer  
+Focuses on implementing the visual elements of the application. They work closely with backend developers to integrate APIs and ensure a responsive, user-friendly interface.
+3. Database Administrator (DBA)  
+Manages the database systems used in the project. Their role involves designing schemas, optimizing queries, ensuring data integrity, performing backups, and handling migrations.
+4. DevOps Engineer  
+Automates and manages the deployment pipeline, including CI/CD setups, server configurations, and cloud infrastructure. Ensures that the system is reliable, scalable, and continuously delivered.
+5. Project Manager  
+Oversees the entire project, coordinates tasks among team members, and ensures timely delivery. They also facilitate communication, manage deadlines, and keep the team aligned with the project goals.
+6. QA Engineer (Quality Assurance)  
+Tests the application to identify bugs and ensure features function as expected. They write test cases, perform manual and automated testing, and help maintain a high-quality user experience.
+
 ## Technology Stack
 - **Django**: A Python-based web framework used for building RESTful APIs and handling server-side logic, enabling rapid development and secure application structure.
 - **PostgreSQL**: A relational database management system used for storing and managing data, offering robust support for complex queries and scalability.
