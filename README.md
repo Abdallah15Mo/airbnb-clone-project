@@ -15,7 +15,23 @@ The Airbnb Clone Project is a full-stack web application designed to replicate c
 - **Bookings**: Fields: `booking_id` (primary key), `property_id` (foreign key to Properties), `user_id` (foreign key to Users), `start_date`, `end_date`. Relationships: A booking is associated with one property and one user.
 - **Reviews**: Fields: `review_id` (primary key), `property_id` (foreign key to Properties), `user_id` (foreign key to Users), `rating`, `comment`. Relationships: A review is linked to one property and one user.
 - **Payments**: Fields: `payment_id` (primary key), `booking_id` (foreign key to Bookings), `amount`, `payment_date`, `status`. Relationships: A payment is tied to one booking.
-  
+ ## Feature Breakdown
+
+1. User Management  
+This feature handles user registration, login, and profile management. It ensures that users can securely access their accounts and manage their personal details with authentication and authorization.
+
+2. Property Management  
+Users can add, edit, and delete property listings. This enables property owners to showcase available properties, manage listings, and keep information up to date.
+
+3. Booking System  
+The booking system allows users to view property availability and make reservations. It manages scheduling, prevents double bookings, and facilitates smooth communication between renters and property owners.
+
+4. Payment Integration  
+Secure payment processing is included to handle transactions. This ensures users can pay for bookings safely and owners can receive payments efficiently.
+
+5. Admin Dashboard  
+Admins have access to manage users, properties, and bookings from a centralized dashboard. This supports system-wide oversight and maintenance of platform integrity.
+
 ## API Security
 - **Authentication**: Implements JWT (JSON Web Tokens) or OAuth to verify user identities, protecting endpoints from unauthorized access.
 - **Authorization**: Uses role-based access control (RBAC) to restrict actions based on user roles, ensuring users only access permitted resources.
